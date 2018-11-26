@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
   }
 /* Siin määrasin ära, kus asetseb see osa, kus on lehekülje tekst jms*/
 div.tekst{
@@ -22,6 +23,12 @@ h1.pealkiri{
     text-align: center; 
     color: black;
     text-shadow: 5px 5px #0000006e;
+}
+p{
+    margin: 10px;
+}
+h2{
+    margin-left: 30px;
 }
 /* Järgmised 2 on piltide jaoks, et neid saaks 3 kõrvuti panna*/
 /* Esimene teeb, et oleks vaid lehe laiuselt ühes rivis need*/

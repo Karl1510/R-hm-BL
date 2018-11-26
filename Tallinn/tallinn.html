@@ -10,6 +10,9 @@
     <style type="text/css">   
     </style>
     <link id="pageStyle" href="tallinn.css" rel="stylesheet">
+    <!--Viide js failidele-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6vWoaarI7iSL661AXNqgZJ92nU-UwRMM&callback=myMap"></script>
+    <script src="tallinn.js"></script>    
     
 </head>
 <body>
@@ -72,22 +75,8 @@
         <div id="googleMap" style="width:100%;height:400px"></div>    
     </div>
     <script>
-        //Google mapsi skript, ei pannud javascripti faili eraldi, kuna selles endas on juba viide google apile
-        function myMap() {
-            var mapProp= {
-                center:new google.maps.LatLng(59.440676, 24.746248),
-                zoom:14,
-                disableDefaultUI: true
-                
-            };
-                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                var vabakas = {lat: 59.433949, lng: 24.744169};
-                var kalamaja = {lat: 59.446923, lng: 24.743763};
-                var marker = new google.maps.Marker({position: vabakas, map: map, label: "Vabakas"})
-                var marker = new google.maps.Marker({position: kalamaja, map: map, label: "Kalamaja"})
-        }
+        //Kutsun välja google mapsi
+        myMap()
     </script>
-            
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6vWoaarI7iSL661AXNqgZJ92nU-UwRMM&callback=myMap"></script>
 </body>
 </html>
