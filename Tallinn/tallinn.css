@@ -1,0 +1,36 @@
+/* Siin tegin tausta, lisasin pildi ja tegin nii, et kerides see ei liiguks*/
+body {
+    background-image: url("pildid/taust.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* Siin määrasin ära, kus asetseb see osa, kus on lehekülje tekst jms*/
+div.tekst{
+    background: rgba(227, 230, 238, 0.9);
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+/* Siin tegin põhilise pealkirja*/
+h1.pealkiri{
+    font-family: 'Luckiest Guy';
+    font-size: 80px; 
+    text-align: center; 
+    color: black;
+    text-shadow: 5px 5px #0000006e;
+}
+/* Järgmised 2 on piltide jaoks, et neid saaks 3 kõrvuti panna*/
+/* Esimene teeb, et oleks vaid lehe laiuselt ühes rivis need*/
+* {
+    box-sizing: border-box;
+}
+/* Teine jagab kolmeks laiuse*/
+.veerg {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
