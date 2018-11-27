@@ -7,8 +7,8 @@
                 
             };
                 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                var vabakas = {lat: 59.433949, lng: 24.744169};
-                var kalamaja = {lat: 59.446923, lng: 24.743763};
-                var marker = new google.maps.Marker({position: vabakas, map: map, label: "Vabakas"})
-                var marker = new google.maps.Marker({position: kalamaja, map: map, label: "Kalamaja"})
+                var toomkirik = {lat: 58.380256, lng: 26.714529};
+                var lossi = {lat: 58.380315, lng: 26.720510};
+                var marker = new google.maps.Marker({position: toomkirik, map: map, label: "Toomkirik"})
+                var marker = new google.maps.Marker({position: lossi, map: map, label: "Lossi 1"})
         }

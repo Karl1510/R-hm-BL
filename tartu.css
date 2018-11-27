@@ -42,7 +42,7 @@ img {
     text-align: center; }
 
 .header {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 85;
     margin-bottom: -10px; }
 
@@ -51,9 +51,20 @@ img {
     font-size: 70;
     margin-bottom: -10px; }
 
+.viide {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px; }
+
 .väiksem{
     width: 800px;
     margin-left: 100px;}
+
+.pilt2 {
+    width: 400px; }
+
+.pilt2_1 {
+    width: 300px; }
 
 .click {
     color: white; }
